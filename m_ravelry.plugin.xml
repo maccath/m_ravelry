@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Macca's Ravelry</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<author url="http://katy-ereira.co.uk">Katy Ereira</author>
+	<version>1.0</version>
+	<url>http://katy-ereira.co.uk</url>
+	<description><![CDATA[Ravelry progress bars for knitting and crochet projects.]]></description>
+	<copyright>2011</copyright>
+	<help>
+		<value><![CDATA[
+			<h3>Configuration</h3>
+			<p>Activate and configure the plugin with your username and Ravelry API key - you can find your key at <a href='http://www.ravelry.com/help/api'>http://www.ravelry.com/help/api</a></p>
+			<p class="warning">Please make sure you use the correct key and username - they are a unique pair.</p>
+			<h3>Usage</h3>
+			<p>There is a Ravelry block available for use in your theme's sidebar. Go to themes in the Habari menu and add a block of type 'Macca's Ravelry', configure the settings, then add it to your sidebars.</p>
+			<p>Alternatively, you can use the following code anywhere in your theme to display output with your default configuration options:</p>
+			<p><code class="block">&lt;?php $theme->m_ravelry(); ?&gt;</code></p>
+			<h3>Customisation</h3>
+			<p>You may wish to customise the look of the progress bars. You can edit the HTML in the m_ravelry.php file, and the CSS in the m_ravelry.css file. Important parts of the CSS are commented for you.</p>
+			<p>You can also replace the default placeholder image by over-writing the image file, or by changing the placeholder URL in the m_ravelry.php file.</p>
+		]]></value>
+	</help>
+</pluggable>  

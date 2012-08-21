@@ -1,0 +1,40 @@
+.rav_project {
+	width: 90%;
+	margin: 0 auto;
+}
+.rav_project img {
+	display: block;
+	float: left;
+	width: 77px;
+	height: 77px;
+	margin: 0 1em 1.75em 0;
+	padding: 10px; /* Border thickness for the project image */
+	background-color: rgba(255, 255, 255, 0.1); /* Border colour for the project image */
+}
+.rav_project .rav_progress_bar_wrapper {
+	float: left;
+	width: 120px; /* Width of right hand column - may need to adjust if progress bar is underneath the image */
+	margin: 0 auto;
+}
+.rav_project .rav_progress_text {
+	position: relative;
+	width: 100px;
+	height: 1.3em;
+	text-align: center;
+	color: white; /* Text colour for the progress bar */
+}
+.rav_project .rav_progress_bar {
+	position: relative;
+	width: 100px;
+	height: 1.3em;
+	margin: 0 auto;
+	padding: 1px;
+	border: 1px solid;
+	border-color: rgba(255, 255, 255, 0.2); /* Border colour for the progress bar */
+	background-color: rgba(255, 255, 255, 0.2); /* Border colour for the progress bar */
+}
+.rav_project .rav_progress_bar .rav_progress_filled { 
+	position: absolute;
+	height: 1.3em;
+	background-color: rgba(199, 87, 111, 0.7); /* Filled in progress bar colour */
+}
